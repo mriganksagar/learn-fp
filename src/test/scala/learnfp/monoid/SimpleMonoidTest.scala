@@ -3,7 +3,7 @@ package learnfp.monoid
 import org.scalatest.{Matchers, WordSpecLike}
 
 class SimpleMonoidTest extends WordSpecLike with Matchers {
-  import MonoidOps._
+  import Monoid._
   import SimpleMonoid._
 
   "sum monoid" should {

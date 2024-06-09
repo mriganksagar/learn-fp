@@ -3,7 +3,7 @@ package learnfp.monad
 import learnfp.functor.Writer
 import learnfp.functor.WriterInstance._
 import learnfp.monoid.Monoid
-import learnfp.monoid.MonoidOps._
+import learnfp.monoid.Monoid
 
 object WriterInstance {
   implicit def writerMonadInstance[W](implicit monoid:Monoid[W]) = new Monad[({type E[X] = Writer[W, X]})#E] {

@@ -3,7 +3,7 @@ package learnfp.monoid
 import org.scalatest.{Matchers, WordSpecLike}
 
 class PairAdditiveMonoidTest extends WordSpecLike with Matchers {
-  import MonoidOps._
+  import Monoid._
   import PairAdditiveMonoid._
   import SimpleMonoid._
   import ListMonoid._

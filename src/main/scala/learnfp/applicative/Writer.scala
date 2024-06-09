@@ -3,7 +3,7 @@ package learnfp.applicative
 import learnfp.functor.Writer
 import learnfp.functor.WriterInstance._
 import learnfp.monoid.Monoid
-import learnfp.monoid.MonoidOps._
+import learnfp.monoid.Monoid._
 
 object WriterInstance {
   implicit def writerApplicativeInstance[W](implicit monoid:Monoid[W]) = new Applicative[({type E[X] = Writer[W, X]})#E] {

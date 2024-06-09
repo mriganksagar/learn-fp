@@ -6,7 +6,7 @@ import learnfp.functor.FunctorOps._
 import learnfp.monad.{Monad, MonadOps}
 import learnfp.monad.MonadOps._
 import learnfp.monoid.Monoid
-import learnfp.monoid.MonoidOps._
+import learnfp.monoid.Monoid._
 import learnfp.functor.WriterInstance._
 import learnfp.monad.WriterInstance._
 

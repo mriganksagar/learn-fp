@@ -4,7 +4,7 @@ import org.scalatest.{WordSpecLike, Matchers}
 
 class ListMonoidTest extends WordSpecLike with Matchers {
 
-  import MonoidOps._
+  import Monoid._
   import ListMonoid._
   "list monoid" should {
     "append lists" in {
